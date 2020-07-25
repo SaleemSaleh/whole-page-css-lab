@@ -87,7 +87,7 @@ h1{
 }
 
 h2{
-    font-size: 180%;
+    font-size: 160%;
     word-spacing: 2px;
     text-align: center;
     margin-top: 80px;
@@ -100,7 +100,7 @@ h2{
 }
 
 h3{
-    font-size: 100%;
+    font-size: 120%;
     letter-spacing: 1px;
      margin-bottom:15px; 
      text-align: center;
@@ -127,6 +127,11 @@ h3{
     font-weight: bold;
 }
 
+.margin-medium {
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
 
 /* ------------------------------------------------- */
 /* paragraph style */
@@ -143,10 +148,10 @@ h3{
 .btn:link,
 .btn:visited{
     display: inline-block;
-    padding: 10px 25px ;
+    padding: 8px 25px ;
     text-transform: uppercase;
     font-family: inherit;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     text-decoration: none;
     border-radius: 10px;  
@@ -161,13 +166,13 @@ h3{
 
 .bun-gray {
     display: inline-block;
-    width: 60%;
     padding: 6px 15px ;
     text-decoration: none;
-    background-color:#465d74 ;
-    border-radius: 200px; 
-    color: white;
+    background-color:#fcfcfc ;
+    border-radius: 10px; 
+    color: #000;
     text-align: center;
+    border: 1px solid rgb(211, 210, 210);
 }
 
 /* ------------------------------------------------- */
@@ -181,12 +186,20 @@ h3{
     text-align: center;
 }
 .icon-small{
-    display: inline;
     font-size: 150%;
     display: block;
     color:#FFD700; 
-
 }
+
+.icon-arr{
+    background-color: rgb(52, 231, 52);;
+    font-size: 80%;
+    display: inline-block;
+    color: #fff;
+    padding: 8px 12px;
+}
+
+
 
 /* ------------------------------------------------- */
 /* header */
@@ -214,7 +227,7 @@ header{
 
 .text-box{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 10%;  
 }
 
@@ -354,10 +367,7 @@ header{
     margin-top: 20px;
     background-size: cover;
 }
-.margin-medium {
-    margin-top: 15px;
-    margin-left: 20px;
-}
+
 .icons-cont{
     display: flex;
     
@@ -385,6 +395,87 @@ header{
     background-color: rgb(206, 242, 247);
 
 }
+
+/* ------------------------------------------------- */
+/* blog section */
+
+
+.blog_imag{
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+/* ------------------------------------------------- */
+/* the syle of the footer section */
+
+footer{
+    width: 100%;
+    background-color: #1b2630;
+    color: #465d74;
+    padding-bottom: 100px;
+}
+
+.footer-container{
+  
+    padding: 30px 10px 30px 10px;
+    border-top: 2px solid  #465d74 ;
+
+  
+}
+
+
+.footer-nav ,
+.social-links{
+    list-style: none;
+  
+}
+
+.footer-nav li {
+    display: inline-block;
+    font-size:80%;
+    margin-right: 20px;
+}
+
+
+.footer-para{
+    font-size: 18px;
+    color: rgb(194, 178, 178);
+    margin: 20px 0;
+}
+
+
+
+
+.social-links li a:link,
+.social-links li a:visited{ 
+    padding: 10px 0 ;
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.2s ;
+}
+
+.social-links li a:hover,
+.social-links li a:active{
+    color:white;
+}
+
+.social-links li{
+    display: inline-block;
+    font-size: 90%;
+    margin-left: 20px;
+}
+.footer__input {
+    width: 60%;
+    padding: 10px ;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: #1b2630;
+    margin-right: -4px;
+
+}
+
 
 
 
@@ -426,7 +517,7 @@ header{
     
    
 
-    
+      
     
     
 
