@@ -30,6 +30,49 @@ html,body{
     float: right;
 }
 
+
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+        position: relative;
+    }
+    .col-4 {
+        width: 30%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+
+
+
+
+
 /* ------------------------------------------------- */
 /* heading style */
 
@@ -140,15 +183,21 @@ header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(image/backgroiun.jpg);
     background-size: cover;
     background-position: center;
-    height:100vh;
+    height:100%;
     background-attachment: fixed;
     position: relative;
+  
 }
 
 .header__nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.text-con{
+    height: 100vh;
+    width: 100%;
+    position: relative;
 }
 
 .text-box{
@@ -249,7 +298,8 @@ header{
 /* services style */
 
 .services__container{
-    margin: 0 60px;
+    width: 80%;
+    margin: 0 auto;
     
 }
 
@@ -271,6 +321,8 @@ header{
    margin-bottom: 80px;
 }
 
+/* ------------------------------------------------- */
+/* work */
 
 .background{
     background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(image/backgroiun.jpg);
@@ -278,12 +330,12 @@ header{
     background-position: center;
     height:100vh;
     position: relative;
-    height: 100vh;
-    overflow: hidden;
+  
 }
 
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 800px) {
    
 
     [class*="col-"] {
@@ -300,50 +352,9 @@ header{
     
     
 
-}
+    
+    
+    
 
-@media only screen and (min-width: 1000px) {
-    /* For desktop: */
-    .full_page {
-        height: 100vh !important;
-    }
-    .col-1 {
-        width: 8.33%;
-    }
-    .col-2 {
-        width: 16.66%;
-    }
-    .col-3 {
-        width: 25%;
-        position: relative;
-    }
-    .col-4 {
-        width: 30%;
-    }
-    .col-5 {
-        width: 41.66%;
-    }
-    .col-6 {
-        width: 50%;
-    }
-    .col-7 {
-        width: 58.33%;
-    }
-    .col-8 {
-        width: 66.66%;
-    }
-    .col-9 {
-        width: 75%;
-    }
-    .col-10 {
-        width: 83.33%;
-    }
-    .col-11 {
-        width: 91.66%;
-    }
-    .col-12 {
-        width: 100%;
-    }
 }
-
 
